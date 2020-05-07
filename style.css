@@ -51,6 +51,19 @@ body, html {
     filter: contrast(120%);
 }
 
+.columnContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.thumbnailContainer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
 .blink{
 		font-family: 'Roboto Mono', monospace;
 		font-weight:bold;
